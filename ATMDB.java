@@ -8,7 +8,7 @@ public class ATMDB {
 	//DB Connection Variables
 		static Connection connection = null;
 		static String databaseName ="";
-		static String url = "jdbc:mysql://localhost:3306" + databaseName;
+		static String url = "*********" + databaseName;
 		static String username = "*******";
 		static String password = "******";
 		
