@@ -26,10 +26,10 @@ public class MainFrame extends JFrame {
 		JPanel login = new JPanel(new GridBagLayout());
 		
 	/* -----------------------------------------------*/
-	/*             Create login layout 				  */
-	/* 			 - Enter PIN Number label			  */
-	/* 			 - Text field to enter PIN			  */
-	/* 			 - Enter button						  */
+	/*             Create login layout 		  */
+	/* 	- Enter PIN Number label 		  */
+	/* 	- Text field to enter PIN		  */
+	/* 	- Enter button				  */
 	/* -----------------------------------------------*/
 		
 		JLabel label = new JLabel("Enter PIN Number");
@@ -49,7 +49,7 @@ public class MainFrame extends JFrame {
 		button.addActionListener(new ActionListener() {
 		
 			public void actionPerformed(ActionEvent e) {
-				String myPIN = text.getText();				// <--- This a bad way to store a PIN. Should use char[] instead of String 
+				String myPIN = text.getText();	// <--- This a bad way to store a PIN. Should use char[] instead of String 
 				//char[] myPIN = text.getPassword();
 				
 				try {
